@@ -6,7 +6,7 @@
 - 有 Python 环境。
 - 有 WPS 软件。
 
-1. 复制 `py_config_example.py` 文件内容，到**同级目录下新建的 `py_config.py` 文件**，并根据变量名语义做好配置修改。
+1. 复制 `/scripts/custom_config/py_config_example.py` 文件内容，到**同级目录下新建的 `py_config.py` 文件**，并根据变量名语义做好配置修改。
 2. 使用 pip 或者其他工具安装 `pymysql` 和 `python-docx` 依赖。
 3. 运行 `generate_doc_from_sql.py` ，生成初版文档。
 4. 将 `macro.js` 放入初版文档的 WPS 宏并执行，对初版文档进行美化。
